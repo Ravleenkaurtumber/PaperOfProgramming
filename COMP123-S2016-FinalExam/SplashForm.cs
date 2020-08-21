@@ -7,6 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+/*STUDENT NAME :RAVLEEN KAUR 
+ * STUDENT NUMBER:301101894
+ * LAST MODIFIED DATE:21-08-2020*/
 
 namespace COMP123_M2020_FinalExam
 {
@@ -23,5 +26,7 @@ namespace COMP123_M2020_FinalExam
             this.Hide();
             splashtimer.Enabled = false;
         }
+
+        
     }
 }

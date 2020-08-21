@@ -312,7 +312,7 @@
             this.FirstNameTBox.Name = "FirstNameTBox";
             this.FirstNameTBox.Size = new System.Drawing.Size(152, 26);
             this.FirstNameTBox.TabIndex = 8;
-           // this.FirstNameTBox.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            //this.FirstNameTBox.TextChanged += new System.EventHandler(this.FirstNameTBox_TextChanged);
             // 
             // RaceLabel
             // 

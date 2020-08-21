@@ -33,13 +33,12 @@ namespace COMP123_M2020_FinalExam
             this.previousForm.Show();
             this.Close();
         }
-
+        //this is to exit which is on menu strip
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
-        // Finalform_load event handler
-        //When FinalForm is loaded, it will fill out the text values of the textbox controls
+        
         // Finalform_load event handler
         //When FinalForm is loaded, it will fill out the text values of the textbox controls
         private void FinalForm_Load(object sender, EventArgs e)
@@ -56,6 +55,6 @@ namespace COMP123_M2020_FinalExam
 
         }
 
-
+       
     }
 }

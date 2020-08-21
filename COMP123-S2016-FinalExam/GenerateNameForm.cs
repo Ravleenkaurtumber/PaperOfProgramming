@@ -8,6 +8,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+/*NAME:RAVLEEN KAUR
+ * STUDENT NUMBER:301101894
+ * DATE MODIFIED:21-08-2020*/
 
 namespace COMP123_M2020_FinalExam
 {
