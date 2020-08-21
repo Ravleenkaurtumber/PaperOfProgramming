@@ -70,6 +70,7 @@
             this.GenerateButton.TabIndex = 8;
             this.GenerateButton.Text = "Generate Names";
             this.GenerateButton.UseVisualStyleBackColor = true;
+            this.GenerateButton.Click += new System.EventHandler(this.GenerateButton_Click_1);
             // 
             // LastNameLabel2
             // 
@@ -252,6 +253,7 @@
             this.NextButton.TabIndex = 7;
             this.NextButton.Text = "Next";
             this.NextButton.UseVisualStyleBackColor = true;
+            this.NextButton.Click += new System.EventHandler(this.NextButton_Click_1);
             // 
             // GenerateNameForm
             // 

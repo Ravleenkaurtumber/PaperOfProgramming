@@ -13,13 +13,16 @@ namespace COMP123_M2020_FinalExam
 {
     public partial class GenerateNameForm : Form
     {
+        private Random random;
+        
         public GenerateNameForm()
         {
+            
             InitializeComponent();
         }
         private void GenerateNames()
         {
-            Random random = new Random();
+            random = new Random();
             int firstname = random.Next(0, 50);
             int lastname = random.Next(0, 50);
             FirstNameListBox.SelectedIndex = firstname;
@@ -33,19 +36,21 @@ namespace COMP123_M2020_FinalExam
             GenerateNames();
         }
 
-        private void GenerateButton_Click(object sender, EventArgs e)
+        
+
+        private void GenerateButton_Click_1(object sender, EventArgs e)
         {
             GenerateNames();
             Program.character.firstname = FirstNameTextBox.Text;
             Program.character.lastname = LastNameTextBox.Text;
         }
-        private void NextButton_Click(object sender, EventArgs e)
+
+        private void NextButton_Click_1(object sender, EventArgs e)
         {
             AbilityGeneratorForm abilityGeneratorForm = new AbilityGeneratorForm();
             abilityGeneratorForm.Show();
             this.Hide();
-
-
         }
     }
-}
+    }
+
