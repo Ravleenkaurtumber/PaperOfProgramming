@@ -53,7 +53,7 @@
             this.LastNameLabel2 = new System.Windows.Forms.Label();
             this.LastNameTextBox = new System.Windows.Forms.TextBox();
             this.FirstNameLabel2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.FirstNameTBox = new System.Windows.Forms.TextBox();
             this.RaceLabel = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.menuStrip1.SuspendLayout();
@@ -83,12 +83,12 @@
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(149, 6);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(90, 6);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(93, 22);
             this.exitToolStripMenuItem.Text = "E&xit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
@@ -305,13 +305,14 @@
             this.FirstNameLabel2.TabIndex = 9;
             this.FirstNameLabel2.Text = "First Name";
             // 
-            // textBox1
+            // FirstNameTBox
             // 
-            this.textBox1.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(168, 54);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(152, 26);
-            this.textBox1.TabIndex = 8;
+            this.FirstNameTBox.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FirstNameTBox.Location = new System.Drawing.Point(168, 54);
+            this.FirstNameTBox.Name = "FirstNameTBox";
+            this.FirstNameTBox.Size = new System.Drawing.Size(152, 26);
+            this.FirstNameTBox.TabIndex = 8;
+           // this.FirstNameTBox.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // RaceLabel
             // 
@@ -343,7 +344,7 @@
             this.Controls.Add(this.LastNameLabel2);
             this.Controls.Add(this.LastNameTextBox);
             this.Controls.Add(this.FirstNameLabel2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.FirstNameTBox);
             this.Controls.Add(this.AbilityGroupBox);
             this.Controls.Add(this.ExitButton);
             this.Controls.Add(this.BackButton);
@@ -389,7 +390,7 @@
         private System.Windows.Forms.Label LastNameLabel2;
         private System.Windows.Forms.TextBox LastNameTextBox;
         private System.Windows.Forms.Label FirstNameLabel2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox FirstNameTBox;
         private System.Windows.Forms.Label RaceLabel;
         private System.Windows.Forms.TextBox textBox2;
     }

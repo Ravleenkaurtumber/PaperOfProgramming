@@ -38,5 +38,24 @@ namespace COMP123_M2020_FinalExam
         {
             Application.Exit();
         }
+        // Finalform_load event handler
+        //When FinalForm is loaded, it will fill out the text values of the textbox controls
+        // Finalform_load event handler
+        //When FinalForm is loaded, it will fill out the text values of the textbox controls
+        private void FinalForm_Load(object sender, EventArgs e)
+        {
+            StrengthTextBox.Text = Program.character.Strength;
+            DexterityTextBox.Text = Program.character.Dexterity;
+            ConstitutionTextBox.Text = Program.character.Constitution;
+            IntelligenceTextBox.Text = Program.character.Intelligence;
+            WisdomTextBox.Text = Program.character.Wisdom;
+            CharismaTextBox.Text = Program.character.Charisma;
+            FirstNameTBox.Text = Program.character.firstname;
+            LastNameTextBox.Text = Program.character.lastname;
+            textBox2.Text = Program.character.Race;
+
+        }
+
+
     }
 }
